@@ -3,22 +3,22 @@
   "version": "1.0.0",
   "description": "John Biehl Portfolio Home Page",
   "source": "src/index.html",
-  "homepage": "https://biehlj.github.io/biehlj.github.io",
+  "homepage": "https://Biehlj.github.io/Biehlj.github.io",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://biehlj.github.io/biehlj.github.io'",
+    "build-gh": "parcel build --public-url 'https://Biehlj.github.io/Biehlj.github.io'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/biehlj/biehlj.github.io.git"
+    "url": "git+https://github.com/Biehlj/Biehlj.github.io.git"
   },
   "author": "John Biehl",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/biehlj/biehlj.github.io/issues"
+    "url": "https://github.com/Biehlj/Biehlj.github.io/issues"
   },
   "dependencies": {
     "react": "^18.2.0",
