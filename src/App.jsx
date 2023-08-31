@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "John Biehl",
-  title: "Cybersecurity Engineer, Developer, and Educator",
+  title: "Cybersecurity Engineer, Developer, and Lifelong Student",
   email: "johnbiehl@gmail.com",
   gitHub: "https://github.com/Biehlj",
   instagram: "https://www.instagram.com/johnpbiehl/",
