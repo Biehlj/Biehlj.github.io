@@ -33,8 +33,8 @@ const About = () => {
         <p className="large">{description}</p>
         <hr />
         <ul className="about">
-          {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
+          {skillsList.map((skill, index) => (
+            <li key={index}>{skill}</li>
           ))}
         </ul>
         <hr />
