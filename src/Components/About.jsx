@@ -25,7 +25,7 @@ const About = () => {
           backgroundColor: "white",
           width: "50%",
           padding: "4rem",
-          margin: "3rem auto",
+          margin: "0 auto",
           textAlign: "center",
         }}
       >

@@ -4,6 +4,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   font-family: "Montserrat", sans-serif;
@@ -80,7 +84,7 @@ p.large {
 }
 
 p.small {
-  font-size: 15px;
+  font-size: auto;
 }
 
 hr {
@@ -89,24 +93,18 @@ hr {
 
 ul.about {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   list-style: none;
+  justify-content: center;
   padding: 0;
 }
 
 li {
-  flex: 1;
+  flex-basis: 30%;
   min-width: 30%;
   margin: 0.5rem;
   padding: 1rem;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-@media (min-width: 768px) {
-  li {
-    flex: 0 0 calc(33.33% -1rem);
-  }
+  font-size: auto;
 }
 
 li::marker {
@@ -122,21 +120,56 @@ a:hover {
   color: #4e567e;
 }
 
-.container {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 330px 300px;
-  margin: 20px auto;
+.portfolio-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.container .box {
+.container {
+  flex: 1;
+  min-width: 300px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 10px;
+  text-align: center;
+}
+
+.box {
   border-radius: 10px;
   border: 1px solid rgb(204, 204, 204);
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.flex-content{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 24px 16px;
   text-align: center;
+}
+
+.portfolio-image{
+  width: 30%;
+  order: 2;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .portfolio-main {
+    flex-direction: column;
+  }
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .portfolio-image{
+    order: 1;
+    margin: 0 auto;
+    width: 100%;
+  }
 }
 
 img.socialIcon {
