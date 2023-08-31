@@ -2,7 +2,7 @@
 * CSS file to hold styles that apply across the application
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap");
 
 html,
 body {
@@ -87,7 +87,16 @@ hr {
   margin: 2.5rem;
 }
 
+ul {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content:space-around;
+}
 li {
+  flex: 1 auto;
+  margin: 5px;
+  font-size: 18px;
   line-height: 1.7;
 }
 
