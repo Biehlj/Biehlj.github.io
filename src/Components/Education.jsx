@@ -18,7 +18,7 @@ const educationList = [
 const Education = () => {
   return (
     <section className="light" id="education">
-      <h2 style={{ textAlign: "center"}}> Education</h2>
+      <h2 style={{ textAlign: "center" }}> Education</h2>
       <div className="container">
         {educationList.map((education) => (
           <div className="box" key={education.school}>
