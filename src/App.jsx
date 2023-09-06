@@ -11,12 +11,12 @@ const siteProps = {
   name: "John Biehl",
   title: "Cybersecurity Engineer, Developer, and Lifelong Student",
   email: "johnbiehl@gmail.com",
-  gitHub: "https://github.com/Biehlj",
-  instagram: "https://www.instagram.com/johnpbiehl/",
-  linkedIn: "https://www.linkedin.com/in/johnbiehl/",
+  gitHub: "Biehlj",
+  instagram: "johnpbiehl",
+  linkedIn: "johnbiehl",
   medium: "",
-  twitter: "https://twitter.com/biehl_john",
-  youTube: "https://www.youtube.com/c/JohnBiehl47",
+  twitter: "biehl_john",
+  youTube: "JohnBiehl47",
 };
 
 const primaryColor = "#4E567E";
