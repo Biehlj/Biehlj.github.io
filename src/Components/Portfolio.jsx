@@ -5,21 +5,21 @@ const imageAltText = "desktop with books and laptop";
 
 const projectList = [
   {
-    title: "Name Formatter",
+    title: "SWIC Projects",
     description:
       "A simple web app that takes a name and returns it in a variety of formats. Built with JavaScript, HTML, and CSS.",
-    url: "https://github.com/Biehlj/name-formatter",
+    url: "https://github.com/Biehlj/School-Projects",
   },
   {
     title: "Home Lab Terraform",
     description: "Created a Terraform file to deploy resources to my home lab utilizing Terraform",
-    url: "https://github.com/Biehlj/terraform-proxmox-k3s",
+    url: "https://github.com/Biehl-Net/Biehl-net",
   },
   {
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed. Includes my experience and design abilities.",
-    url: "https://resume.biehl.studio",
+    url: "https://github.com/Biehlj/resume",
   },
   {
     title: "My GitHub",
